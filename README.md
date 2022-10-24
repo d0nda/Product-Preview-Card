@@ -15,7 +15,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 Mobile
-![Mobile Screenshot]( "Mobile Screenshot")
+![Mobile Screenshot](.images/Mobile-screenshot.jpg "Mobile Screenshot")
 Desktop
 ![Desktop Screenshot](./images/desktop-screenshot.png "Desktop Screenshot")
 
