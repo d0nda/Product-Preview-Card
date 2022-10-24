@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    
+}
+  
+.container {
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+  
+  
+.images {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+}
+  
+.description {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 0 10px 10px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+  
+.price {
+    display: flex;
+    align-items: center;
+}
+  
+h2 {
+    font-family: 'Fraunces', sans-serif;
+} 
+  
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%); 
+}
+  
+.bold {
+    /* This is a initial price */
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 20px;
+}
+  
+.cart-icon {
+    /* Shopping Cart  icon */
+    color: white;
+    margin-right: 10px;
+}
+  
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    padding: 14px 45px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+  
+button:hover {
+    opacity: 0.8;
+}
+  
+.right {
+    /* this is a striked price*/
+    float: center;
+    padding: 14px;
+    margin: auto;
+}
+  
+  /* Responsive Media Query */
+
+@media screen and (min-width:437px) and (max-width:516px) {
+    .container {
+        flex-direction: row;
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width: 516px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        margin: 200px auto 50px;
+        width: 39em;
+    }
+
+    .description {
+        width: 50%;
+        border-radius: 0 10px 10px 0;
+        box-sizing: border-box;
+    }
+
+    .product-images {
+        width: 50%;
+    }
+
+    .images {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+    }
+
+    .price {
+        flex-wrap: wrap;
+    }
+}
