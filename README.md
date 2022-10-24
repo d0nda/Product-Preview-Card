@@ -21,7 +21,7 @@ Desktop
 
 ### Links
 
-- Solution URL: (https://d0nda.github.com/Product-Preview-Card/)
+- Solution URL: (https://github.com/d0nda/Product-Preview-Card/)
 - Live Site URL: (https://d0nda.github.io/Product-Preview-Card/)
 
 ## My process
